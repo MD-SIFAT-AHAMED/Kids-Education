@@ -1,0 +1,433 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.raleway {
+    font-family: "Raleway", serif;
+  }
+.quicksand{
+    font-family: "Quicksand", serif;
+  }
+  
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* body{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+
+/* Navber  */
+.navber{
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 0px;
+}
+.logo{
+    align-items: center;
+    gap: 11px;
+}
+.logoText{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+}
+.navItems li{
+    list-style: none;
+    margin-right: 32px;
+    > a{
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: "Quicksand", serif;
+    }
+}
+.item1{
+    color: #FEA301;
+}
+.item2{
+    color: #01ACFD;
+}
+.item3{
+    color: #05D4DF;
+}
+.item4{
+    color: #5D58EF;
+}
+.btn-primary{
+    border: none;
+    background-color: #FEA301;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-family: "Quicksand", serif;
+}
+.navigationBar{
+    display: none;
+    border: none;
+    background: white;
+    font-size: 25px;
+}
+/* banner section */
+.bannerSection{
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.bannerRignt{
+    max-width: 640px;
+}
+.bannerHeader{
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+}
+.EmpoweringColor{
+    color: #FEA301;
+}
+.visionColor{
+    color: #01ACFD;
+}
+.bannerDescription{
+    color: gray;
+    font-size: 1.2rem;
+    margin: 24px 0px;
+}
+.btn-enroll{
+    border: none;
+    background-color:black;
+    padding: 10px 47px;
+    color: white;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.bannerLeft{
+    max-width: 468px;
+}
+.bannerImg img{
+    width: 100%;
+ }
+/* CurriculumSection Section */
+.CurriculumSection{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url('./assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.CurriculumHeader{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-size: 2.8rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.cardSection{
+    gap: 28px;
+    text-align: center;
+}
+.cardItem{
+    text-align: center;
+    padding: 53px 40px;
+    border-radius: 18px;
+}
+.cardItem h3{
+    font-size: 1.3rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    margin: 32px 0px;
+}
+.cardItem p{
+    font-size: 1rem;
+    color: gray;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+.cardItem a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    
+} 
+.cardItem1{
+    background-image: linear-gradient(#DEF5FF,#FFFFFF);
+    > a{
+        color: #64C8FF;
+    }
+}
+.cardItem2{
+    background-image: linear-gradient(#FFF4DC,#FFFFFF);
+    > a{
+        color: #F0AA00;
+    }
+}
+.cardItem3{
+    background-image: linear-gradient(#EEE1FF,#FFFFFF);
+    > a{
+        color: #8700FF;
+    }
+}
+.nextBtn{
+    text-align: center;
+}
+/* Our story */
+.StorySection{
+    width: 1440px;
+    margin: 0 auto;
+    background-image:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%),url('./assets/bg.png');
+    background-size:contain
+    background-repeat: no-repeat; 
+}
+
+.storyCard,
+.storyKids{
+    border-radius: 16px;
+}
+.sotryHeader{
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.storyCards{
+   justify-content: space-between;
+    gap: 20px;
+}
+.storyCard{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.storyKids{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.storyCard h3{
+    margin-bottom: 150px;
+}
+.storyRightChild{
+    position: absolute;
+    font-size: 1rem;
+    font-family:"Raleway", serif;
+    padding: 14px 19px;
+    color: white;
+    background-color:#3CD8E8 ;
+    border-radius: 47px;
+    top: 400px;
+    left: 38px;
+}
+.storyCard1Child{
+    position: absolute;
+    font-size: 1rem;
+    font-family:"Raleway", serif;
+    padding: 14px 19px;
+    color: white;
+    background-color:#95B226 ;
+    border-radius: 47px;
+    top: 195px;
+    left: 38px;
+}
+.storyLeft{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 20px;
+}
+.storyCard img{
+    border-radius: 16px 16px 0 0;
+   
+}
+
+.storyCard h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    padding: 61px 162px 99px 38px;
+}
+.storyKids img{
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+}
+.storyCard img{
+    width: 100%;
+}
+.storyKids h3{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    padding: 33px 28px 38px 38px;
+}
+.storyCard,
+.storyKids{
+    background-color: #fff;
+}
+.btnViewall{
+    text-align: center;
+}
+.btn-viewAll{
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 60px;
+    border-radius: 12px;
+    background: #000;
+    color: #fff;
+    margin: 80px 60px ;
+}
+
+/* our story section */
+
+
+
+/* Footer section */
+.footerSection{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #01ACFD;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    color: white;
+}
+.footerRight{
+    width: 406px;
+    height: 217px;
+}
+.footerLogo{
+    align-items: center;
+    margin-bottom: 35px;
+}
+.footerLogo img{
+    width: 25%;
+}
+.footerDescription p{
+    font-size: 1.1rem;
+    font-family: "Quicksand", serif;
+}
+.logo-heading{
+    font-size: 2.8rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+}
+.footerMenu h3,
+.footerContact h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Quicksand", serif;
+    margin-bottom: 32px;
+}
+.footerMenu li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footerMenu li a{
+    font-size: 1.1rem;
+    font-family: "Quicksand", serif;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* Mobile Device */
+@media screen and (max-width: 576px)
+{
+    /* navber */
+    .logoText ,
+    .navItems,
+    .btn-primary{
+        display: none;
+    }
+    .logo img{
+        width: 46px;
+        height: 46px;
+    }
+    .navigationBar{
+        display: block;
+    }
+    .navber{
+        padding: 5px 20px;
+        border-bottom: 1px solid #FEA301;
+    }
+    /* banner section */
+    .bannerSection{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0px 20px;
+    }
+    .bannerHeader{
+        font-size: 2.1rem;
+    }
+    .bannerDescription{
+        font-size: 1rem;
+    }
+    .btn-enroll{
+        font-size: 1rem;
+    }
+    /* CurriculumSection Section */
+    .CurriculumSection{
+        padding: 0px 20px;
+    }
+    .CurriculumHeader{
+        font-size: 1.8rem;
+    }
+    .cardSection{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .cardItem p,
+    .cardItem a{
+        font-size: 10px;
+    }
+    .cardItem p{
+        margin-bottom: 22px;
+    }
+    .cardItem h3{
+        margin: 22px 0px;
+    }
+
+
+    .storyRight{
+        display: none;
+    }
+
+
+    /* footer section */
+    .footerSection{
+        flex-direction: column;
+        padding: 0px 20px;
+       
+    }
+    .footerRight{
+        margin-top: 35px;
+        width: 357px;
+        height: 270px;
+        
+    }
+    .footerLogo img{
+        width: 20%;
+    }
+    .footerLogo h3{
+        font-size: 1rem;
+    }
+    .footerDescription p{
+       font-size: 1rem;
+    }
+}
